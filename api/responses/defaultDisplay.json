@@ -1,0 +1,51 @@
+{
+  "placeholders": {
+    "infoCard": {
+      "firstName": "Taylor",
+      "lastName": "Carlile",
+      "phoneNum": "(214) 555-0973"
+    },
+    "goals": [
+      "be a better student",
+      "be a better friend",
+      "stay fit",
+      "be a better employee",
+      "eat healthier",
+      "make good choices",
+      "be a nicer person",
+      "be more adventurous",
+      "be more romantic",
+      "be a better partner",
+      "be more productive",
+      "make better choices",
+      "be more honest"
+    ]
+  },
+  "errorMsgs": {
+    "missingFields": {
+      "title": "Missing Fields!",
+      "subtxt": "You must fill out all fields before submitting this data"
+    },
+    "invalidPhone": {
+      "title": "Invalid Phone Number!",
+      "subtxt": "You must provide a valid 10 digit phone number to continue"
+    },
+    "missingGoals": {
+      "title": "No Goals!",
+      "subtxt": "You must provide at least one goal to continue"
+    },
+    "missingAgreement": {
+      "title": "Missing Agreement!",
+      "subtxt": "You must agree to recieve text messages, our privacy policy and terms and conditions to continue"
+    },
+    "generic": {
+      "title": "Error!",
+      "subtxt": "An error occurred"
+    }
+  },
+  "legal": {
+    "termsLink": "https://app.termly.io/document/terms-of-use-for-website/a360084c-fd0f-4659-b7ce-b218ae3640a9",
+    "smsAgreement": "By Checking this box, you agree to recieve SMS text messages from TextsFromYou.",
+    "tosAgreement": "I agree to TextsFromYou's Privacy Policy and Terms of Service."
+  }
+}

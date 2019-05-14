@@ -1,0 +1,126 @@
+.App-head {
+  background-color: #f5f5f5;
+  text-align: center;
+  line-height: 1;
+  padding-bottom: 1%;
+}
+#topHead {
+  font-size: 50px;
+  font-family: "Kaushan Script", cursive;
+  padding-top: 2%;
+}
+.subHead {
+  font-family: "Raleway", sans-serif;
+}
+.homePageForm {
+  background-color: #f5f5f5;
+  padding: 5vh 20%;
+}
+.clearFix {
+  overflow: auto;
+}
+.clearFix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.goalCard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 2.5%;
+  opacity: 1;
+  float: left;
+  padding: 2%;
+  width: 350px;
+  text-align: center;
+  position: relative;
+  background-color: #f5f5f5;
+}
+.goalCard:hover {
+  box-shadow: 0 8px 16px 0 #766868;
+}
+
+.addNew {
+  vertical-align: middle;
+  padding-left: 2%;
+  color: #38b6eb;
+}
+.center-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.goalInput {
+  width: 175px;
+  margin-left: 2%;
+}
+.removeGoal {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  color: #f91313;
+}
+body {
+  background-color: #f0caca;
+}
+.manageAcctBtn {
+  float: right;
+}
+
+.showBanner {
+  display: block;
+  margin: 0 2% 3% 2% !important;
+  position: absolute;
+  top: 5px;
+}
+.hideSuccess {
+  display: none;
+}
+
+.sms {
+  font-size: 12px !important;
+  margin-bottom: 5px;
+}
+.hideApp,
+.hidePrivacy {
+  display: none;
+}
+
+.showPrivacy {
+  text-align: center;
+  margin: 1% 10%;
+}
+
+.footerLink {
+  text-align: center;
+  margin-top: 4px;
+  text-decoration-line: underline;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@media screen and (max-width: 768px) {
+  .goalCard {
+    width: 100%;
+    margin-right: 3.5%;
+    margin-left: 3.5%;
+  }
+  .subHead {
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    padding-bottom: 1%;
+  }
+  .App-head {
+    height: auto;
+  }
+}
+@media screen and (max-width: 425px) {
+  .sms {
+    text-align: center;
+    margin: 3.5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .goalCard {
+    font-size: 10px;
+  }
+}

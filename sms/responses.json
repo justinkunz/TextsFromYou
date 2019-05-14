@@ -1,0 +1,28 @@
+{
+  "signUp": "You are now signed up to receive SMS alerts from Texts From You! \n\nYou will soon receive motivation from your future self. If you would like to view or edit your goals, reply with GOALS. If you'd like to stop receiving texts at any time, reply STOP to discontinue SMS communication. Standard text messaging rates may apply.",
+  "stop": "You have opted out to receive additional sms notifications from Textsfromyou. To begin receiving these texts again, reply with the word UNSTOP.\n\nThanks for using Textsfromyou!",
+  "unstop": "You have re-enrolled to receive SMS alerts from Texts From You! \n\nYou will soon receive motivation from your future self. Once you have reached your goals, or if you'd like to stop receiving texts at any time, reply STOP to discontinue SMS communication. Standard text messaging rates may apply.",
+  "info": "Thanks for reaching out! Edit your goals by texting the word GOALS. If you'd like to stop receiving texts at any time, reply STOP to discontinue SMS communication.\n\nThanks for using Textsfromyou!",
+  "goals": {
+    "generic": "To view your goals, reply with VIEWGOALS. To delete a goal, respond to this message with DELETEGOAL. To add a goal, reply with ADDGOAL.",
+    "add": {
+      "incomplete": "Complete this sentance with your new goal. I want to ____________ today.",
+      "complete": "Your goal has been successfully added!",
+      "error": "An unexpected error occured when adding this goal."
+    },
+    "delete": {
+      "incomplete": "Your goals are listed below. Please respond with the number corresponding to the goal you'd like to remove.",
+      "complete": "Your goal has been successfully deleted!",
+      "invalid": "The number you responded with was not listed in the range. Please try again.",
+      "limit": "You must always have at least one goal. Please add a goal by texting ADDGOAL before deleting your only remaining one.",
+      "error": "An unexpected error occured when adding this goal."
+    },
+    "viewGoals": "Your goals are listed below."
+  },
+  "pin": "Your security pin is ",
+  "dev": {
+    "error": "An error occured on Textsfromyou when responding to an inbound request. Full details are listed in the heroku logs. A summary is listed below. \n\n",
+    "newUser": "A new user has signed up for TextsFromYou!",
+    "inbound": "TextsFromYou Dev Update: \n\n"
+  }
+}

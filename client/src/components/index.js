@@ -1,0 +1,9 @@
+export { default as GoalCard } from './GoalCard';
+export { default as HomeForm } from './HomeForm';
+export { default as Agreement } from './Agreement';
+export { default as SubmitBtn } from './SubmitBtn';
+export { default as SuccessMsg } from './SuccessMsg';
+export { default as AlertMsg } from './AlertMsg';
+export { default as PrivacyPolicy } from './PrivacyPolicy';
+export { default as FooterLinks } from './FooterLinks';
+export { default as PageTitle } from './PageTitle';

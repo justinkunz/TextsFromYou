@@ -1,0 +1,62 @@
+{
+  "errors": {
+    "missingData": {
+      "type": "Missing Data",
+      "status": "error",
+      "title": "Error!",
+      "msg": "An unexpected error occured",
+      "banner": {
+        "showBanner": "false"
+      }
+    },
+    "phoneNum": {
+      "type": "Phone Number Incorrect",
+      "status": "error",
+      "title": "Error!",
+      "msg": "An unexpected error occured",
+      "banner": {
+        "showBanner": "false"
+      }
+    },
+    "missingGoals": {
+      "type": "Missing Goals",
+      "status": "error",
+      "title": "Error!",
+      "msg": "An unexpected error occured",
+      "banner": {
+        "showBanner": "false"
+      }
+    },
+    "generic": {
+      "type": "Unexpected Error",
+      "status": "error",
+      "title": "Error!",
+      "msg": "An unexpected error occured",
+      "banner": {
+        "showBanner": "false"
+      }
+    }
+  },
+  "success": {
+    "generic": {
+      "status": "success",
+      "title": "Success!",
+      "msg": "You're one step closer to reaching your goals!",
+      "banner": {
+        "showBanner": "true",
+        "title": "Your goals have been successfully added",
+        "msg": "You will now begin to recieve random encouraging text messages to help you reach your goals. By continuing, you agree to our Privacy Policy and Terms of Use. Text Stop to (972) 960-4809 anytime to stop "
+      }
+    },
+    "alreadyAdded": {
+      "status": "success",
+      "title": "Success!",
+      "msg": "You've already signed up for Textsfromyou, but any new goals you've listed have been added to your account!",
+      "banner": {
+        "showBanner": "true",
+        "title": "New Goals Added",
+        "msg": "You have an existing account, but any new goals you've listed have been added to your account"
+      }
+    }
+  }
+}

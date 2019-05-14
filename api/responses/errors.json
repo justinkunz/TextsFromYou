@@ -1,0 +1,31 @@
+{
+  "none": {
+    "isError": false,
+    "enableApp": true,
+    "alertBanner": {
+      "title": null,
+      "msg": null,
+      "displayClass": ""
+    }
+  },
+  "type": {
+    "generic": {
+      "isError": true,
+      "enableApp": false,
+      "alertBanner": {
+        "title": "Texts From You is currently down",
+        "msg": "We are doing the best we can to resolve this issue, please check back again soon",
+        "displayClass": "negative"
+      }
+    },
+    "dbMait": {
+      "isError": true,
+      "enableApp": false,
+      "alertBanner": {
+        "title": "Texts From You is currently down for maitenence",
+        "msg": "We are currently making updates to the database, please check back again soon",
+        "displayClass": "negative"
+      }
+    }
+  }
+}
