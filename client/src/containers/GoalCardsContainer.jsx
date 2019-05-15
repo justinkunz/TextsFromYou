@@ -7,12 +7,7 @@ class GoalCards extends React.Component {
     const getPlaceholder = () => {
       return placeholders[Math.floor(Math.random() * placeholders.length)];
     };
-    let showX;
-    if (this.props.goals.length === 1) {
-      showX = false;
-    } else {
-      showX = true;
-    }
+    let showX = !(this.props.goals.length === 1);
     return this.props.goals.map((goal, i) => (
       <GoalCard
         index={i}
