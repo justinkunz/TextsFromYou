@@ -97,11 +97,12 @@ module.exports = function(snap, req){
             };
         } catch(err) {
             console.log(err);
-            sms.send(sms.devError({
+            sms.devError({
                 from: req.body.From,
                 msg: req.body.Body,
                 userId: userId
-            }, err));
+            }, err);
+            return;
         };
 }
 
