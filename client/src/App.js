@@ -24,8 +24,6 @@ class App extends Component {
     }
 
   componentDidMount() {
-    const test = "EAAoIBAQCuSFx0GyJlCwLp++++PTLNLg9iiP73P/".replace('++++', "\n")
-    console.log(test);
     this.getDisplayInfo();
   };
 
