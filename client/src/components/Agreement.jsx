@@ -7,7 +7,7 @@ class Agreement extends React.Component {
       <div className="center-card">
         <Checkbox
           label={this.props.label}
-          className="sms"
+          className={this.props.styleClass}
           onClick={() => this.props.checkHandler()}
           checked={this.props.checked}
         />

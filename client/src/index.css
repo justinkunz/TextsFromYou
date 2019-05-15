@@ -77,10 +77,16 @@ body {
   display: none;
 }
 
-.sms {
+.sms,
+.tos {
   font-size: 12px !important;
   margin-bottom: 5px;
 }
+
+.tos {
+  margin-top: 0 !important;
+}
+
 .hideApp,
 .hidePrivacy {
   display: none;
@@ -114,7 +120,8 @@ body {
   }
 }
 @media screen and (max-width: 425px) {
-  .sms {
+  .sms,
+  .tos {
     text-align: center;
     margin: 3.5%;
   }

@@ -37,11 +37,13 @@ class GoalEntry extends React.Component {
           checked={checkedSMS}
           checkHandler={checkHandlerSMS}
           label={smsAgreement}
+          styleClass="sms"
         />
         <Agreement
           checked={checkedTOS}
           checkHandler={checkHandlerTOS}
           label={tosAgreement}
+          styleClass="tos"
         />
         <SubmitBtn
           enabled={enableApp}
