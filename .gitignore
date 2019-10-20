@@ -3,3 +3,4 @@ client/node_modules
 .env
 package-lock.json
 client/package-lock.json
+db/firebaseToken.json

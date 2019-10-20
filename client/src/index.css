@@ -62,7 +62,31 @@
 }
 body {
   background-color: #f0caca;
+  /* animation: change-color;
+  animation-duration: 12s; */
 }
+
+/* @keyframes change-color {
+  0% {
+    background-color: #f0caca;
+  }
+
+  25% {
+    background-color: #caf0d9;
+  }
+
+  50% {
+    background-color: #f0d8ca;
+  }
+
+  75% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: #f0caca;
+  }
+} */
 .manageAcctBtn {
   float: right;
 }

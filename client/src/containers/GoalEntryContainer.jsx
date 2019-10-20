@@ -7,20 +7,34 @@ class GoalEntry extends React.Component {
     const {
       display,
       goals,
-      enableApp,
-      userData,
       onGoalChange,
       addNewGoal,
       removeGoal,
+      agreements,
+      userData,
       resetPage,
-      checkedSMS,
-      checkedTOS,
-      smsAgreement,
-      tosAgreement,
-      checkHandlerSMS,
-      checkHandlerTOS,
+      enableApp,
       showModal
     } = this.props;
+    // const {
+    //   display,
+    //   goals,
+    //   enableApp,
+    //   userData,
+    //   onGoalChange,
+    //   addNewGoal,
+    //   removeGoal,
+    //   resetPage,
+    //   checkedSMS,
+    //   checkedTOS,
+    //   smsAgreement,
+    //   tosAgreement,
+    //   checkHandlerSMS,
+    //   checkHandlerTOS,
+    //   showModal
+    // } = this.props;
+
+    const { sms, tos } = agreements;
 
     return (
       <React.Fragment>
@@ -34,15 +48,15 @@ class GoalEntry extends React.Component {
           />
         </div>
         <Agreement
-          checked={checkedSMS}
-          checkHandler={checkHandlerSMS}
-          label={smsAgreement}
+          checked={sms.checked}
+          checkHandler={sms.clickHandle}
+          label={sms.agreement}
           styleClass="sms"
         />
         <Agreement
-          checked={checkedTOS}
-          checkHandler={checkHandlerTOS}
-          label={tosAgreement}
+          checked={tos.checked}
+          checkHandler={tos.clickHandle}
+          label={tos.agreement}
           styleClass="tos"
         />
         <SubmitBtn
